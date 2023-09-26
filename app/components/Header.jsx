@@ -1,36 +1,37 @@
-import React from "react";
+import Image from "next/image";
 function Header() {
   return (
-    <header className="flex justify-between items-end m-16 mb-0">
+    <header className="flex justify-between items-start m-16 mb-0 font-['Nexa'] h-screen">
       <div>
-        <h1 className="text-5xl font-extrabold text-[#401176]">Realia'23</h1>
-        <h2 className="text-xl">DHIU UG Arts Fest</h2>
+        <h1 className="text-5xl font-black text-theme">Realia'23</h1>
+        <h2 className="text-xl leading-3">DHIU UG Arts Fest</h2>
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-3 texl-lg font-light">
         <nav>
-          <ul className="flex gap-1">
-            <li className="bg-[#401176] text-white text-lg px-5 py-1 rounded-3xl hover:text-[#401176] hover:bg-yellow-200 ">
+          <ul className="flex">
+            <li className="bg-theme text-white px-4 py-1 rounded-3xl hover:text-theme hover:bg-yellow-200 ">
               Home
             </li>
-            <li className="text-[#401176] text-lg px-5 py-1 rounded-3xl hover:bg-[#401176] hover:text-yellow-200 ">
+            <li className="text-theme px-4 py-1 rounded-3xl hover:bg-theme hover:text-yellow-200 ">
               Home
             </li>
-            <li className="text-[#401176]  text-lg px-5 py-1 rounded-3xl hover:bg-[#401176] hover:text-yellow-200 ">
+            <li className="text-theme  px-4 py-1 rounded-3xl hover:bg-theme hover:text-yellow-200 ">
               Home
             </li>
-            <li className="text-[#401176]  text-lg px-5 py-1 rounded-3xl hover:bg-[#401176] hover:text-yellow-200 ">
+            <li className="text-theme  px-4 py-1 rounded-3xl hover:bg-theme hover:text-yellow-200 ">
               Home
             </li>
-            <li className="text-[#401176] text-lg px-5 py-1 rounded-3xl hover:bg-[#401176] hover:text-yellow-200 ">
+            <li className="text-theme px-4 py-1 rounded-3xl hover:bg-theme hover:text-yellow-200 ">
               Home
             </li>
           </ul>
         </nav>
-        <img
-          src="https://www.regalials.com/wp-content/uploads/2021/08/Regalia-Logo-1.png"
-          alt=""
-          className="h-20"
+        <Image
+          src="/logo.png" // Path to the image in the public folder
+          alt="Realia Logo"
+          width={150} // Set the width of the image
+          height={0 } // Set the height of the image
         />
       </div>
     </header>

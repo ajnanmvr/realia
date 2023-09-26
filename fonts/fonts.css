@@ -1,0 +1,70 @@
+/* Nexa-Trial-Black */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 900;
+  src: url("./src/Nexa-Trial-Black.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Black.woff") format("woff");
+}
+
+/* Nexa-Trial-Bold */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 700;
+  src: url("./src/Nexa-Trial-Bold.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Bold.woff") format("woff");
+}
+
+/* Nexa-Trial-ExtraBold */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 800;
+  src: url("./src/Nexa-Trial-ExtraBold.woff2") format("woff2"),
+    url("./src/Nexa-Trial-ExtraBold.woff") format("woff");
+}
+
+/* Nexa-Trial-ExtraLight */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 200;
+  src: url("./src/Nexa-Trial-ExtraLight.woff2") format("woff2"),
+    url("./src/Nexa-Trial-ExtraLight.woff") format("woff");
+}
+
+/* Nexa-Trial-Heavy */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 900;
+  src: url("./src/Nexa-Trial-Heavy.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Heavy.woff") format("woff");
+}
+
+/* Nexa-Trial-Light */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 300;
+  src: url("./src/Nexa-Trial-Light.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Light.woff") format("woff");
+}
+
+/* Nexa-Trial-Regular */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 400;
+  src: url("./src/Nexa-Trial-Regular.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Regular.woff") format("woff");
+}
+
+/* Nexa-Trial-Thin */
+@font-face {
+  font-family: "Nexa";
+  font-weight: 100;
+  src: url("./src/Nexa-Trial-Thin.woff2") format("woff2"),
+    url("./src/Nexa-Trial-Thin.woff") format("woff");
+}
+
+/* Apply the font to specific elements */
+body {
+  font-family: "times new roman", sans-serif;
+}
+
+/* Additional CSS rules for other elements */

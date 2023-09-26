@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("../fonts/fonts.css");
+.bg{
+    background: url('../public/bg.jpg');
+    background-size: 110%;
+    background-position: center;
+    
+}
