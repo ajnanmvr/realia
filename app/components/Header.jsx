@@ -7,7 +7,7 @@ function Header() {
         <h2 className="text-xl leading-3">DHIU UG Arts Fest</h2>
       </div>
 
-      <div className="flex items-center gap-3 texl-lg font-light">
+      <div className="flex items-center texl-lg font-light">
         <nav>
           <ul className="flex">
             <li className="bg-theme text-white px-4 py-1 rounded-3xl hover:text-theme hover:bg-yellow-200 ">

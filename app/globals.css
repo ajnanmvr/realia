@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url("../fonts/fonts.css");
-.bg{
-    background: url('../public/bg.jpg');
-    background-size: 110%;
-    background-position: center;
-    
+.bg {
+  background: url("../public/bg.jpg");
+  background-size: 110%;
+  background-position: center;
+}
+.bg-blue {
+  background: url("../public/bg-blue.jpg");
+  background-size: cover;
 }

@@ -1,9 +1,17 @@
-import React from "react";
+import Image from 'next/image'
 function Description() {
   return (
-    <section className="bg-red-500 bg min-h-screen p-40">
-      <h1 className="font-bold text-5xl text-theme mt-40">Realia'23</h1>
-      <div className="w-6/7">
+    <section className=" bg min-h-screen">
+      <div className="w-full p-16 flex justify-end align-center">
+        <Image
+          src="/arabic-logo.jpg" // Path to the image in the public folder
+          alt="Realia Logo"
+          width={400} // Set the width of the image
+          height={0} // Set the height of the image
+        />
+      </div>
+      <div className="max-w-[1300px] pl-20  mt-48">
+      <h1 className="font-bold text-5xl text-theme">Realia'23</h1>
         <p>
           "REALIA'23" is the name of this year's Rabee' festival, organized by
           the Al Huda Students' Association (ASAs), the U.G. Students' Union of
@@ -14,7 +22,7 @@ function Description() {
         <p>
           The Darul Huda U.G. Arts Fest will play a pivotal role in enhancing
           the academic progress of students across various fields of study and
-          academic activities.
+          academic activities.
         </p>
       </div>
     </section>
