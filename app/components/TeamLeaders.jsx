@@ -10,7 +10,7 @@ const imageUrls = [
 
 function Home() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="lg:flex justify-center items-center overflow-hidden h-[450px] hidden ">
       <Carousel images={imageUrls} />
     </div>
   );

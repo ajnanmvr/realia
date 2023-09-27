@@ -1,21 +1,22 @@
-import React from 'react'
-import Header from './components/Header'
-import Description from './components/Description'
-import Count from './components/Count'
-import TeamLeaders from './components/TeamLeaders'
-import Footer from './components/Footer'
+import React from "react";
+import First from "./components/First";
+import CustomModal from "./components/CustomModal";
+import Description from "./components/Description";
+import Count from "./components/Count";
+import TeamLeaders from "./components/TeamLeaders";
+import Footer from "./components/Footer";
 
 function page() {
   return (
-<div>
-<Header/>
-<Description/>
-<Count/>
-<TeamLeaders/>
-<Footer/>
-
-</div>
-  )
+    <div className="">
+      <First />
+      {/* <CustomModal /> */}
+      {/* <Count />
+      <Description />
+      <TeamLeaders />
+      <Footer /> */}
+    </div>
+  );
 }
 
-export default page
+export default page;
